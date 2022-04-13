@@ -8,6 +8,7 @@ namespace AddressBookDay37
 {
     public class AddressBook1
     {
+        public int id { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }
         public string phoneNumber { get; set; }
@@ -15,7 +16,7 @@ namespace AddressBookDay37
         public string city { get; set; }
         public string state { get; set; }
         public string zip { get; set; }
-        public string emial { get; set; }
+        public string email { get; set; }
 
     }
 }

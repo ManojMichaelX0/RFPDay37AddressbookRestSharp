@@ -1,33 +1,92 @@
 {
-    "addressBook":
-    [   
+  "addressBook": [
     {
-        "firstName":"Manoj",
-        "lastName":"Thiparapu",
-        "phoneNumber":"8106529025",
-        "address":"25-4-710",
-        "city":"Kazpiet",
-        "state":"Telangana",
-        "zip":"506003"
+      "id": 1,
+      "firstName": "Manoj",
+      "lastName": "Thiparapu",
+      "phoneNumber": "8106529025",
+      "address": "25-4-710",
+      "city": "Kazpiet",
+      "state": "Telangana",
+      "zip": "506003",
+      "email": "manojthiparapu@gmail.com"
     },
     {
-        "firstName":"Manu",
-        "lastName":"Thiparapu",
-        "phoneNumber":"897897310",
-        "address":"25-4-710",
-        "city":"Kazpiet",
-        "state":"Telangana",
-        "zip":"506004"
+      "id": 2,
+      "firstName": "Manu",
+      "lastName": "Thiparapu",
+      "phoneNumber": "897897310",
+      "address": "25-4-710",
+      "city": "Kazpiet",
+      "state": "Telangana",
+      "zip": "506004",
+      "email": "manu@gmail.com"
     },
     {
-        "firstName":"Laxmi",
-        "lastName":"Thiparapu",
-        "phoneNumber":"8106529025",
-        "address":"25-4-710",
-        "city":"Kazpiet",
-        "state":"Telangana",
-        "zip":"506003"
+      "id": 3,
+      "firstName": "Laxmi",
+      "lastName": "Thiparapu",
+      "phoneNumber": "8106529025",
+      "address": "25-4-710",
+      "city": "Kazpiet",
+      "state": "Telangana",
+      "zip": "506003",
+      "email": "laxmi@gmail.com"
+    },
+    {
+      "id": 4,
+      "firstName": "Aron",
+      "lastName": "Stone",
+      "phoneNumber": "1234567890",
+      "address": "Dholakpur",
+      "city": "Varanasi",
+      "state": "UP",
+      "zip": "229554",
+      "email": "ps@gmail.com"
+    },
+    {
+      "id": 5,
+      "firstName": "Vishal",
+      "lastName": "Seth",
+      "phoneNumber": "781654987",
+      "address": "Charashu Chauraha",
+      "city": "Jaunpur",
+      "state": "UP",
+      "zip": "442206",
+      "email": "vs@gmail.com"
+    },
+    {
+      "id": 6,
+      "firstName": "Aron",
+      "lastName": "Stone",
+      "phoneNumber": "1234567890",
+      "address": "Dholakpur",
+      "city": "Varanasi",
+      "state": "UP",
+      "zip": "229554",
+      "email": "ps@gmail.com"
+    },
+    {
+      "id": 7,
+      "firstName": "Vishal",
+      "lastName": "Seth",
+      "phoneNumber": "781654987",
+      "address": "Charashu Chauraha",
+      "city": "Jaunpur",
+      "state": "UP",
+      "zip": "442206",
+      "email": "vs@gmail.com"
+    },
+    {
+      "id": 8,
+      "firstName": "Ekta",
+      "lastName": "Kumbhare",
+      "phoneNumber": "7856239865",
+      "address": "Bajaj Nagar",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "zip": "442203",
+      "email": "ek@gmail.com"
     }
-
-    ]
+  ]
 }
