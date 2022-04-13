@@ -1,33 +1,24 @@
 {
-    "addressBook":
-    [   
+  "addressBook": [
     {
-        "firstName":"Manoj",
-        "lastName":"Thiparapu",
-        "phoneNumber":"8106529025",
-        "address":"25-4-710",
-        "city":"Kazpiet",
-        "state":"Telangana",
-        "zip":"506003"
+      "id": 1,
+      "firstName": "Manoj",
+      "lastName": "Thiparapu",
+      "phoneNumber": "8106529025",
+      "address": "25-4-710",
+      "city": "Kazpiet",
+      "state": "Telangana",
+      "zip": "506003"
     },
     {
-        "firstName":"Manu",
-        "lastName":"Thiparapu",
-        "phoneNumber":"897897310",
-        "address":"25-4-710",
-        "city":"Kazpiet",
-        "state":"Telangana",
-        "zip":"506004"
-    },
-    {
-        "firstName":"Laxmi",
-        "lastName":"Thiparapu",
-        "phoneNumber":"8106529025",
-        "address":"25-4-710",
-        "city":"Kazpiet",
-        "state":"Telangana",
-        "zip":"506003"
+      "id": 3,
+      "firstName": "Laxmi",
+      "lastName": "Thiparapu",
+      "phoneNumber": "8106529025",
+      "address": "25-4-710",
+      "city": "Kazpiet",
+      "state": "Telangana",
+      "zip": "506003"
     }
-
-    ]
+  ]
 }
