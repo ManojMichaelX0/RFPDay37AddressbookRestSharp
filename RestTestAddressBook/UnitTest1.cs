@@ -112,5 +112,36 @@ namespace RestTestAddressBook
                 Console.WriteLine(response.Content);
             }
         }
+        //UC 24 Update contact
+        [TestMethod]
+        public void OnCallingPutAPI_ReturnEmployeeObject()
+        {
+            // Arrange
+            // Initialize the request for PUT to add new employee
+            RestRequest request = new RestRequest("/addressBook/2", Method.Put);
+            request.RequestFormat = DataFormat.Json;
+
+            request.AddBody(new AddressBook1
+            {
+                firstName = "Manu",
+                lastName ="Thiparapu",
+                phoneNumber = "8978977310",
+                address ="canada",
+                city="torento",
+                state ="torento",
+                zip="406054",
+                email ="manuthiparapu@gmail.com"
+            });
+
+            // Act
+            RestResponse response = client.ExecuteAsync(request).Result;
+
+            // Assert
+            Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
+            AddressBook1 address = JsonConvert.DeserializeObject<AddressBook1>(response.Content);
+            Assert.AreEqual("Manu", address.firstName);
+            Assert.AreEqual("8978977310", address.phoneNumber);
+            Console.WriteLine(response.Content);
+        }
     }
 }
